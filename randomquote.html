@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Quote</title>
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+</head>
+<body>
+   <div class="frame">
+
+     <div class="quoteText">
+     	  <i class="fa fa-quote-left" ></i><span class="text"></span>    <!--span是行内元素，这里不能用div，因为会换行  ，另外不要给div设置高度，设置了高度那么超出部分会溢出，而不设置高度，高度会自适应-->
+     </div>
+
+     <div class="quoteAuthor">
+        -<span class="author"></span>
+     </div>
+
+     <div class="Buttons">
+     	<a href="#" class="tweet button"><i class="fa fa-twitter" ></i></a>
+  	 	<a href="#" class="tumblr button"><i class="fa fa-tumblr" ></i></a>
+  	 	<button class="button new">New quote</button>
+     </div>
+
+   	
+   </div>
+
+   <footer>
+   	 <p>by Tangl</p>
+   </footer>
+
+
+
+</body>
+</html>
